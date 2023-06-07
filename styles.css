@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #f9d5e5;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Estilos de la sección principal */
+#hero {
+  background-color: #f0e1f0;
+  padding: 60px;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #b0d0b0;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #80b080;
+}
+
+/* Estilos de las secciones */
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 16px;
+  color: #666;
+}
+
+section ul {
+  list-style: disc;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Estilos del formulario de contacto */
+#contact {
+  background-color: #d5e8d5;
+  padding: 40px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  background-color: #a0c0a0;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #70a070;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #f9d5e5;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
